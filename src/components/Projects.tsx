@@ -28,7 +28,6 @@ export default function Projects() {
         </div>
       </Reveal>
 
-      {/* ✅ IMPORTANT: items-stretch + wrapper h-full so cards normalize height */}
       <div className="mt-6 grid items-stretch gap-5 sm:grid-cols-2">
         {projects.map((p, idx) => (
           <Reveal key={p.title} delayMs={idx * 70}>
@@ -40,7 +39,7 @@ export default function Projects() {
       </div>
 
       {/* Skills Snapshot (quick scan + ATS) */}
-      <Reveal delayMs={120}>
+      {/* <Reveal delayMs={120}>
         <div className="mt-8 rounded-3xl border border-zinc-200 bg-zinc-50 p-6 dark:border-white/10 dark:bg-white/5">
           <h3 className="text-sm font-semibold text-zinc-900 dark:text-white">
             Skills snapshot
@@ -83,7 +82,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      </Reveal>
+      </Reveal> */}
     </section>
   );
 }

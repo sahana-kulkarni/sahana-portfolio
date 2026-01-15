@@ -51,7 +51,7 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/sahana-kulkarni/frontend-performance-dashboard",
-    // liveUrl: "PASTE_IF_DEPLOYED"
+    liveUrl: "https://frontend-performance-dashboard.vercel.app/",
   },
 
   // Strong secondary project (not featured)
@@ -89,6 +89,6 @@ export const projects: Project[] = [
       "Reduced UI duplication by extracting reusable table, filter, and status components.",
     ],
     githubUrl: "PASTE_YOUR_REPO_LINK_HERE",
-    // liveUrl: "OPTIONAL_LIVE_DEMO_LINK",
+    liveUrl: "https://expense-disbursal-dashboard.vercel.app/",
   },
 ];
